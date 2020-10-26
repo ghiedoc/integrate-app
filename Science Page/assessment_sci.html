@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="/css/hover.css">
     <link href="/css/hover.css" rel="stylesheet" media="all">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="stylesheet" href="/Science Page/css/assessment_quiz.css">
 </head>
 <body class="body-sci" >
     <nav class="navbar-sci fixed-top">
@@ -52,8 +53,32 @@
                 
                     <h1>What is a photosynthesis ? </h1>
                     <hr>
-                    <div class="box-answer">
-                        <br><br><br><br><br><br><br><br><br><br><br>
+                    <!-- home box -->
+                    <div class="home-box custom-box hide">
+                        <h3>Instructions:</h3>
+                        <p>Total Number of Questions: <span class="total-question">5</span></p>
+                        <button type="button" class="btn">Start Quiz</button>
+                    </div>
+                    <!-- quiz box -->
+                    <div class="quiz-box custom-box">
+                        <div class="question-number" id="question-num">
+
+                        </div>
+                        <div class="question-text">
+
+                        </div>
+                        <div class="question-image">
+
+                        </div>
+                        <div class="option-container">
+
+                        </div>
+                        <div class="next-question-button">
+                            <button type="button" class="btn" onclick="next()">Next</button>
+                        </div>
+                        <div class="answers-indicator">
+
+                        </div>
                     </div>
                     
                     <div class="btn-selection">
@@ -107,15 +132,15 @@
                         <h3>Question 10 - *</h3>
                     </div>
 
-                    
-
+                
                 </div>
             </div>
         </div>
-  
-
     </div>
-
-
 </body>
+
+<!-- SCRIPTS LOCATED HERE -->
+<script src="/Science Page/jsp_Science/question.js"></script>
+<script src="/Science Page/jsp_Science/assessment.js"></script>
+
 </html>

@@ -1,16 +1,18 @@
 * {
     font-family: 'Segoe UI';
-   }
+}
 
-   body, html {
+body,
+html {
     height: 100%;
-  }
+}
 
 body {
     padding: 0;
     margin: 0;
-    
+
 }
+
 .body-eng {
     background-image: url("/images/English-BG.svg");
     background-position: center;
@@ -18,7 +20,7 @@ body {
     background-size: cover;
     width: 100%;
     height: 100%;
-   
+
 }
 
 .body-fil {
@@ -40,7 +42,7 @@ body {
 }
 
 .body-sci {
-    background-image: url("/images/Science-BG.svg");
+    background-image: url("/images/Science\ Background.svg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -58,7 +60,7 @@ a:hover {
     padding: 10px;
     color: white;
     background-color: #64A23A;
-    
+
 }
 
 .navbar-fil {
@@ -139,15 +141,16 @@ a:hover {
     width: 20%;
     height: auto;
     border-radius: 30px;
-    
+
     margin: auto;
     margin-left: 5%;
     top: 110px;
-    
+
 }
 
-.button-eng{
-    background-color: white; /* Green */
+.button-eng {
+    background-color: white;
+    /* Green */
     border: none;
     color: #4CAF50;
     text-align: center;
@@ -159,22 +162,22 @@ a:hover {
     margin-bottom: 5%;
     width: 40%;
     font-weight: bold;
-  }
+}
 
-  .btn-eng{
-    background-color: #4CAF50;    
-    color: white;    
-    padding: 0px 50px;   
-    text-align: center;    
-    text-decoration: none;   
-    display: inline-block;    
-    font-size: 35px;  
-    font-weight: bold;  
-    margin:5px 20px;    
-    cursor: pointer;    
-    float: right;    
-    border-radius: 100px;  
-    border-width: 3px;  
+.btn-eng {
+    background-color: #4CAF50;
+    color: white;
+    padding: 0px 50px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 35px;
+    font-weight: bold;
+    margin: 5px 20px;
+    cursor: pointer;
+    float: right;
+    border-radius: 100px;
+    border-width: 3px;
     border-style: solid;
 }
 
@@ -194,7 +197,7 @@ a:hover {
 
 .container-fil-question {
     position: relative;
-    background-color:  #99815f;
+    background-color: #99815f;
     width: 40%;
     height: 65%;
     border-radius: 30px;
@@ -210,14 +213,15 @@ a:hover {
     width: 20%;
     height: auto;
     border-radius: 30px;
-    
+
     margin: auto;
     margin-left: 5%;
     top: 110px;
 }
 
-.button-fil{
-    background-color: white; /* Green */
+.button-fil {
+    background-color: white;
+    /* Green */
     border: none;
     color: #99815f;
     text-align: center;
@@ -229,22 +233,22 @@ a:hover {
     margin-bottom: 5%;
     width: 40%;
     font-weight: bold;
-  }
+}
 
-  .btn-fil{
-    background-color:  #99815f;  
-    color: white;    
-    padding: 0px 50px;   
-    text-align: center;    
-    text-decoration: none;   
-    display: inline-block;    
-    font-size: 35px;  
-    font-weight: bold;  
-    margin:5px 20px;    
-    cursor: pointer;    
-    float: right;    
-    border-radius: 100px;  
-    border-width: 3px;  
+.btn-fil {
+    background-color: #99815f;
+    color: white;
+    padding: 0px 50px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 35px;
+    font-weight: bold;
+    margin: 5px 20px;
+    cursor: pointer;
+    float: right;
+    border-radius: 100px;
+    border-width: 3px;
     border-style: solid;
 }
 
@@ -264,7 +268,7 @@ a:hover {
 
 .container-sci-question {
     position: relative;
-    background-color:  #723b86;
+    background-color: #723b86;
     width: 40%;
     height: 65%;
     border-radius: 30px;
@@ -280,16 +284,17 @@ a:hover {
     width: 20%;
     height: auto;
     border-radius: 30px;
-    
+
     margin: auto;
     margin-left: 5%;
     top: 110px;
 }
 
-.button-sci{
-    background-color: white; /* Green */
+.button-sci {
+    background-color: white;
+    /* Green */
     border: none;
-    color:#723b86;
+    color: #723b86;
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -299,22 +304,22 @@ a:hover {
     margin-bottom: 5%;
     width: 40%;
     font-weight: bold;
-  }
+}
 
-  .btn-sci{
-    background-color: #723b86;    
-    color: white;    
-    padding: 0px 50px;   
-    text-align: center;    
-    text-decoration: none;   
-    display: inline-block;    
-    font-size: 35px;  
-    font-weight: bold;  
-    margin:5px 20px;    
-    cursor: pointer;    
-    float: right;    
-    border-radius: 100px;  
-    border-width: 3px;  
+.btn-sci {
+    background-color: #723b86;
+    color: white;
+    padding: 0px 50px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 35px;
+    font-weight: bold;
+    margin: 5px 20px;
+    cursor: pointer;
+    float: right;
+    border-radius: 100px;
+    border-width: 3px;
     border-style: solid;
 }
 
@@ -333,7 +338,7 @@ a:hover {
 
 .container-math-question {
     position: relative;
-    background-color:  #3a7f9b;
+    background-color: #3a7f9b;
     width: 40%;
     height: 65%;
     border-radius: 30px;
@@ -345,18 +350,19 @@ a:hover {
 
 .container-math-noquestion {
     position: relative;
-    background-color:  #3a7f9b;
+    background-color: #3a7f9b;
     width: 20%;
     height: auto;
     border-radius: 30px;
-    
+
     margin: auto;
     margin-left: 5%;
     top: 110px;
 }
 
-.button-math{
-    background-color: white; /* Green */
+.button-math {
+    background-color: white;
+    /* Green */
     border: none;
     color: #3a7f9b;
     text-align: center;
@@ -368,23 +374,23 @@ a:hover {
     margin-bottom: 5%;
     width: 40%;
     font-weight: bold;
-  }
+}
 
 
-  .btn-math{
-    background-color: #3a7f9b;    
-    color: white;    
-    padding: 0px 50px;   
-    text-align: center;    
-    text-decoration: none;   
-    display: inline-block;    
-    font-size: 35px;  
-    font-weight: bold;  
-    margin:5px 20px;    
-    cursor: pointer;    
-    float: right;    
-    border-radius: 100px;  
-    border-width: 3px;  
+.btn-math {
+    background-color: #3a7f9b;
+    color: white;
+    padding: 0px 50px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 35px;
+    font-weight: bold;
+    margin: 5px 20px;
+    cursor: pointer;
+    float: right;
+    border-radius: 100px;
+    border-width: 3px;
     border-style: solid;
 }
 
@@ -399,12 +405,12 @@ a:hover {
 
 
 
-.main-panel{
+.main-panel {
     margin: auto;
     width: 100%;
 }
 
-.box-answer{
+.box-answer {
     margin: auto;
     width: 80%;
     height: auto;
@@ -447,25 +453,19 @@ hr {
     border: 1% solid #ffffff;
     font-family: 'Segoe UI';
     width: 85%;
-    
+
 }
 
-p{
+p {
     color: white;
     font-size: 100%;
     font-family: 'Segoe UI';
     margin-left: 10%;
 }
-.btn-selection{
+
+.btn-selection {
     margin-left: 10px;
     width: 100%;
     height: auto;
     margin-left: 9%;
 }
-
-
-
-
-
-
-
