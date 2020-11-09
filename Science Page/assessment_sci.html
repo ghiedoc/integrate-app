@@ -1,144 +1,108 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Assessment Science</title>
 
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="/css/assessment.css" />
+    <link rel="stylesheet" href="/css/hover.css" />
+    <link href="/css/hover.css" rel="stylesheet" media="all" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <link rel="stylesheet" href="/Science Page/css/assessment_quiz.css" />
+    <link rel="shortcut icon" href="/images/logo.png" type="image/png" />
+  </head>
 
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    <link rel="stylesheet" href="/css/assessment.css">
-    <link rel="stylesheet" href="/css/hover.css">
-    <link href="/css/hover.css" rel="stylesheet" media="all">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
-<<<<<<< HEAD
-    <link rel="stylesheet" href="/Science Page/css/assessment_quiz.css">
-=======
-    <link rel="shortcut icon" href="/images/logo.png" type="image/png">
->>>>>>> 78ee7cb4a846a585a2261f3162c5bc082de43ee4
-</head>
-<body class="body-sci" >
+  <body onload="start()" class="body-sci">
     <nav class="navbar-sci fixed-top">
-        <a class="navbar-brand" href="#" style="text-align: center;">Assessment</a>
-        <div class="right">
-            <a class="btn-sci" href="#">QUIT</a>
-        </div>
+      <a class="navbar-brand" href="#" style="text-align: center">Assessment</a>
+      <div class="right">
+        <a class="btn-sci" href="#">QUIT</a>
+      </div>
     </nav>
 
-
     <div class="main-panel">
-    
-        <div class="container-sci" style="float: left;">
-            <div class="row">
-                
-                <div class="column-desc">
-                   
-                        <h1>Instruction</h1>
-                    
-                    
-                    <h3>Answer all the questions correctly. Passing score is 5 out 10 question.</h3>
-                    <br>
+      <div class="container-sci" style="float: left">
+        <div class="row">
+          <div class="column-desc">
+            <h1>Instruction</h1>
 
-                    <div class="limit">
-                    <h4>Note: if you fail, you need to repeat the lesson to proceed to the next lesson.</h4>
-                    </div>
-                    <br>
-                    <h3>Happy Learning !</h3>
-                </div>
+            <h3>
+              Answer all the questions correctly. Passing score is 5 out 10
+              question.
+            </h3>
+            <br />
+
+            <div class="limit">
+              <h4>
+                Note: if you fail, you need to repeat the lesson to proceed to
+                the next lesson.
+              </h4>
             </div>
+            <br />
+            <h3>Happy Learning !</h3>
+          </div>
         </div>
+      </div>
 
-        <div class="container-sci-question" style="float: left;">
-            <div class="row">
-                    <!-- <h1>What is a photosynthesis ? </h1> -->
-                    <!-- home box -->
-                    <div class="home-box custom-box hide">
-                        <h3>Instructions:</h3>
-                        <p>Total Number of Questions: <span class="total-question">5</span></p>
-                        <button type="button" class="btn">Start Quiz</button>
-                    </div>
-                    <!-- quiz box -->
-                    <div class="quiz-box custom-box">
-                        <div class="question-number" id="question-num">
-
-                        </div>
-                        <div class="question-text">
-
-                        </div>
-                        <div class="question-image">
-
-                        </div>
-                        <div class="option-container">
-
-                        </div>
-                        <div class="next-question-button">
-                            <button type="button" class="btn" onclick="next()">Next</button>
-                        </div>
-                        <div class="answers-indicator">
-
-                        </div>
-                    </div>
-                    
-                    <div class="btn-selection">
-                        <br>
-                        <button class="button-sci"  style="float: left;">Submit</button>
-                        <a href="/html/trivia.html">
-                        <button class="button-sci" style="float: left;">Next</button>
-                    </a>
-                    </div>
-                
+      <div class="container-sci-question" style="float: left">
+        <div class="row">
+          <div class="quiz-box custom-box">
+            <div class="question-number" id="question-num"></div>
+            <div class="question-text"></div>
+            <div class="option-container"></div>
+            <div class="next-question-button">
+              <button type="button" class="btn" onclick="next()">Next</button>
             </div>
+            <div class="answers-indicator"></div>
+          </div>
+          <div class="result-box custom-box hide">
+            <h1>Quiz Result</h1>
+            <table>
+              <tr>
+                <td>Total Question</td>
+                <td><span class="total-question"></span></td>
+              </tr>
+              <tr>
+                <td>Attempt</td>
+                <td><span class="attempt"></span></td>
+              </tr>
+              <tr>
+                <td>Correct</td>
+                <td><span class="total-correct" name="tcorrect"></span></td>
+              </tr>
+              <tr>
+                <td>Wrong</td>
+                <td><span class="total-wrong"></span></td>
+              </tr>
+              <tr>
+                <td>Percentage</td>
+                <td><span class="percentage"></span></td>
+              </tr>
+              <tr>
+                <td>Total Score</td>
+                <td><span class="total-score"></span></td>
+                <input type="text" name="scoreToDB" id="scoreToDB" />
+              </tr>
+            </table>
+            <button type="button" class="btn" name="again">Try Again</button>
+            <button type="button" class="btn" onclick="goHome()">
+              Go To Home
+            </button>
+          </div>
         </div>
-
-
-        <div class="container-sci-noquestion" style="float: left;">
-            <div class="row">
-                
-                <div class="column-desc">
-                    
-                        <h1>Item Number</h1>
-                    
-                    <hr>
-                    <div class="quest">
-                        <h3>Question 1  - ✓</h3>
-                    </div>
-                    <div class="quest">
-                        <h3>Question 2  -✓</h3>
-                    </div>
-                    <div class="quest">
-                        <h3>Question 3  - ✓</h3>
-                    </div>
-                    <div class="quest">
-                        <h3>Question 4  - ✓</h3>
-                    </div>
-                    <div class="quest">
-                        <h3>Question 5  - ✓</h3>
-                    </div>
-                    <div class="quest">
-                        <h3>Question 6  - ✓</h3>
-                    </div>
-                    <div class="quest">
-                        <h3>Question 7  - ✓</h3>
-                    </div>
-                    <div class="quest">
-                        <h3>Question 8  - ✓</h3>
-                    </div>
-                    <div class="quest">
-                        <h3>Question 9  - ✓</h3>
-                    </div>
-                    <div class="quest">
-                        <h3>Question 10 - *</h3>
-                    </div>
-
-                
-                </div>
-            </div>
-        </div>
+      </div>
     </div>
-</body>
+  </body>
 
-<!-- SCRIPTS LOCATED HERE -->
-<script src="/Science Page/jsp_Science/question.js"></script>
-<script src="/Science Page/jsp_Science/assessment.js"></script>
-
+  <!-- SCRIPTS LOCATED HERE -->
+  <script src="/Science Page/jsp_Science/question.js"></script>
+  <script src="/Science Page/jsp_Science/assessment.js"></script>
 </html>

@@ -13,17 +13,17 @@ const unit1 = [
   {
     q: "What is HANDS for?",
     options: ["Hearing", "Touching", "Smelling", "Seeing", "Tasting"],
-    answer: 4,
+    answer: 1,
   },
   {
     q: "What is EAR for?",
     options: ["Seeing", "Touching", "Smelling", "Hearing", "Tasting"],
-    answer: 4,
+    answer: 3,
   },
   {
     q: "What is EYES for?",
     options: ["Seeing", "Smelling", "Tasting", "Hearing", "Touching"],
-    answer: 4,
+    answer: 0,
   },
   {
     q: "Your ears help you hear sounds?",
