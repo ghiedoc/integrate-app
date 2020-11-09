@@ -1,6 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="755.407" height="115.782" viewBox="0 0 755.407 115.782">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="755.407" height="116.059" viewBox="0 0 755.407 116.059">
   <defs>
-    <filter id="Tame_and_Wild_Animals" x="153.407" y="36.782" width="454" height="74" filterUnits="userSpaceOnUse">
+    <filter id="Animals" x="297.407" y="36.059" width="170" height="74" filterUnits="userSpaceOnUse">
       <feOffset dy="3" input="SourceAlpha"/>
       <feGaussianBlur stdDeviation="3" result="blur"/>
       <feFlood flood-opacity="0.502"/>
@@ -8,8 +8,8 @@
       <feComposite in="SourceGraphic"/>
     </filter>
   </defs>
-  <g id="Tame_Wild" data-name="Tame Wild" transform="translate(-10.289 -6.27)">
-    <rect id="Rectangle_384" data-name="Rectangle 384" width="741" height="87" rx="43.5" transform="translate(24.696 35.052)" fill="#d8d7d7"/>
+  <g id="Animals-2" data-name="Animals" transform="translate(-10.289 -6.27)">
+    <rect id="Rectangle_384" data-name="Rectangle 384" width="741" height="88" rx="44" transform="translate(24.696 34.329)" fill="#d8d7d7"/>
     <path id="Path_763" data-name="Path 763" d="M33.129,0H685.991a33.129,33.129,0,0,1,0,66.258H33.129A33.129,33.129,0,0,1,33.129,0Z" transform="translate(35.717 45.405)" fill="#746d6d"/>
     <g id="Spaceship" transform="matrix(-0.914, 0.407, -0.407, -0.914, 110.121, 66.068)">
       <path id="Path_636" data-name="Path 636" d="M0,18.061H81.943S62.481,0,42.7,0,0,18.061,0,18.061Z" transform="translate(3.434 12.14)" fill="#474747"/>
@@ -22,8 +22,8 @@
       <path id="Path_641" data-name="Path 641" d="M.889,29c2.089,0,4.856-6.856,4.856-14.864S2.978,0,.889,0s.16,6.186.16,14.2S-1.2,29,.889,29Z" transform="translate(69.213 42.022) rotate(30)" fill="#fff" opacity="0.33"/>
       <ellipse id="Ellipse_129" data-name="Ellipse 129" cx="1.734" cy="1.576" rx="1.734" ry="1.576" transform="translate(49.177 66.374)" fill="#fff" opacity="0.31"/>
     </g>
-    <g transform="matrix(1, 0, 0, 1, 10.29, 6.27)" filter="url(#Tame_and_Wild_Animals)">
-      <text id="Tame_and_Wild_Animals-2" data-name="Tame and Wild Animals" transform="translate(380.41 86.78)" fill="#fff" stroke="#fff" stroke-width="2" font-size="39" font-family="SegoeUI-Bold, Segoe UI" font-weight="635"><tspan x="-215.452" y="0">Tame and Wild Animals</tspan></text>
+    <g transform="matrix(1, 0, 0, 1, 10.29, 6.27)" filter="url(#Animals)">
+      <text id="Animals-3" data-name="Animals" transform="translate(382.41 86.06)" fill="#fff" stroke="#fff" stroke-width="2" font-size="39" font-family="SegoeUI-Bold, Segoe UI" font-weight="700"><tspan x="-73.525" y="0">Animals</tspan></text>
     </g>
   </g>
 </svg>

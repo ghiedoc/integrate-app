@@ -1,30 +1,33 @@
 let url = "";
 
+//1 Counting Numbers
+
 if(sessionStorage.getItem("ID")==1 && sessionStorage.getItem("lessonID")==1){
-    url = 'https://www.youtube.com/embed/DXcX6EYdqU0?controls=0';
-    youtubeVid(url);
+    url= 'https://nationalueduph-my.sharepoint.com/:p:/g/personal/ariasru_students_national-u_edu_ph/ESqB5xkaVxJMt7v5Wor9FYIBcndowVwyJaAF94wcOOZtfQ?e=4LPHlM';
+    powerpoint(url);
 }
 
 else if(sessionStorage.getItem("ID")==1 && sessionStorage.getItem("lessonID")==2){
-    url = "https://www.youtube.com/embed/BG7oqAQsv-k?controls=0";
-    youtubeVid(url);
+    url= 'https://nationalueduph-my.sharepoint.com/:p:/g/personal/ariasru_students_national-u_edu_ph/ETp929wpNWhCubfx2B74cBYB4J5J57BAHPPWagciKawJ6g?e=MVkPgL';
+    powerpoint(url);
 }
 
 else if(sessionStorage.getItem("ID")==1 && sessionStorage.getItem("lessonID")==3){
-    url = "https://www.youtube.com/embed/eeJEVtIvSwo?controls=0";
-    youtubeVid(url);
+    url= 'https://nationalueduph-my.sharepoint.com/:p:/g/personal/ariasru_students_national-u_edu_ph/Edvm6mU9ailGvOpT5Iz0WuIByGqVFqTn_UlQMaYL4EcbIA?e=AovVFK';
+    powerpoint(url);
 }
 
 else if(sessionStorage.getItem("ID")==1 && sessionStorage.getItem("lessonID")==4){
-    url = "https://www.youtube.com/embed/iMmjeJKpvxY?controls=0";
-    youtubeVid(url);
+    url= 'https://nationalueduph-my.sharepoint.com/:p:/g/personal/ariasru_students_national-u_edu_ph/EZCnAS8rPMhMo6o_gjEPJhcB4afYspxVMuTcLKLO0ktdMw?e=0r6YzW';
+    powerpoint(url);
 }
 
 else if(sessionStorage.getItem("ID")==1 && sessionStorage.getItem("lessonID")==5){
-    url = "https://www.youtube.com/embed/-J7HcVLsCrY?controls=0";
-    youtubeVid(url);
-    createAssessmentBtn();
+    url= 'https://nationalueduph-my.sharepoint.com/:p:/g/personal/ariasru_students_national-u_edu_ph/EejjAC4O1AJJmF5DZuh7DSgB0OwDef7mXpdMM731XgEolw?e=aexALK';
+    powerpoint(url);
 }
+
+
 //2
 else if(sessionStorage.getItem("ID")==2 && sessionStorage.getItem("lessonID")==1){
     url = 'https://www.youtube.com/embed/zCz3xerrr1o?controls=0';
@@ -49,7 +52,6 @@ else if(sessionStorage.getItem("ID")==2 && sessionStorage.getItem("lessonID")==4
 else if(sessionStorage.getItem("ID")==2 && sessionStorage.getItem("lessonID")==5){
     url = "https://www.youtube.com/embed/Sw2KZki-eaA?controls=0";
     youtubeVid(url);
-    createAssessmentBtn();
 }
 
 
@@ -77,40 +79,22 @@ else if(sessionStorage.getItem("ID")==3 && sessionStorage.getItem("lessonID")==5
 
 
 
-//4
+//4 Money
 else if(sessionStorage.getItem("ID")==4 && sessionStorage.getItem("lessonID")==1){
-    url = 'https://www.youtube.com/embed/tquecIG-Pws?controls=0';
-    youtubeVid(url);
+    url= "https://nationalueduph-my.sharepoint.com/:p:/g/personal/ariasru_students_national-u_edu_ph/EY1e1r8gxJ9AkJ5byVrUA38BIzhqiTNwN3bAVU44rSETDQ?e=FgiV51";
+    powerpoint(url);
 }
 
 else if(sessionStorage.getItem("ID")==4 && sessionStorage.getItem("lessonID")==2){
-    url = "https://www.youtube.com/embed/ZY3U25QMxS8?controls=0";
-    youtubeVid(url);
+    url= "https://nationalueduph-my.sharepoint.com/:p:/g/personal/ariasru_students_national-u_edu_ph/Ea06B6S0JUVGjJZXWqOzcp0BNfP0WKxuM23HPX-aOtGGzw?e=eUQDUP";
+    powerpoint(url);
 }
 
 else if(sessionStorage.getItem("ID")==4 && sessionStorage.getItem("lessonID")==3){
-    url = "https://www.youtube.com/embed/BRZajMzxjeY?controls=0";
-    youtubeVid(url);
+    url= "https://nationalueduph-my.sharepoint.com/:p:/g/personal/ariasru_students_national-u_edu_ph/EZmv3hoKJV1FrUrX_A4mP1QBXku-aRoj6GFaCHhu6glULA?e=OKYspm";
+    powerpoint(url);
 }
 
-else if(sessionStorage.getItem("ID")==4 && sessionStorage.getItem("lessonID")==4){
-    url = "https://www.youtube.com/embed/xePbH2sN_ZI?controls=0";
-    youtubeVid(url);
-}
-
-else if(sessionStorage.getItem("ID")==4 && sessionStorage.getItem("lessonID")==5){
-    url = "https://www.youtube.com/embed/m_QkDFf-Hu8?controls=0";
-    youtubeVid(url);
-}
-else if(sessionStorage.getItem("ID")==4 && sessionStorage.getItem("lessonID")==6){
-    url = "https://www.youtube.com/embed/H2Z4p0au1yk?controls=0";
-    youtubeVid(url);
-}
-else if(sessionStorage.getItem("ID")==4 && sessionStorage.getItem("lessonID")==7){
-    url = "https://www.youtube.com/embed/_VK-kXkXTBc?controls=0";
-    youtubeVid(url);
-    createAssessmentBtn();
-}
 
 
 //5
@@ -137,7 +121,6 @@ else if(sessionStorage.getItem("ID")==5 && sessionStorage.getItem("lessonID")==4
 else if(sessionStorage.getItem("ID")==5 && sessionStorage.getItem("lessonID")==5){
     url= 'https://nationalueduph-my.sharepoint.com/:p:/g/personal/llanetaje_students_national-u_edu_ph/EY9D8dpGyPtAlCLvzZ8rCTAB09lybdl2iGr95YG2cThx7w?e=ADV7tI';
     powerpoint(url);
-    createAssessmentBtn();
 }
 
 
@@ -165,107 +148,77 @@ else if(sessionStorage.getItem("ID")==6 && sessionStorage.getItem("lessonID")==4
 else if(sessionStorage.getItem("ID")==6 && sessionStorage.getItem("lessonID")==5){
     url = "https://www.youtube.com/embed/IYwq1DUrc3E?controls=0";
     youtubeVid(url);
-    createAssessmentBtn();
 }
 
 
-//7
+//7 Fractions
 else if(sessionStorage.getItem("ID")==7 && sessionStorage.getItem("lessonID")==1){
-    url= 'https://nationalueduph-my.sharepoint.com/:p:/g/personal/llanetaje_students_national-u_edu_ph/EVh4ehq0wQdKn98y2-wcn_ABUZqE9cwT1tzcqruYctA7sg?e=bJENc0';
+    url= 'https://nationalueduph-my.sharepoint.com/:p:/g/personal/ariasru_students_national-u_edu_ph/Efqh5Mg9KCdBl6i6FqrR3GEB6UNGuN7eVtEVLygVZ0y8yw?e=uK2TdG';
     powerpoint(url);
 }
 
 else if(sessionStorage.getItem("ID")==7 && sessionStorage.getItem("lessonID")==2){
-    url= 'https://nationalueduph-my.sharepoint.com/:p:/g/personal/llanetaje_students_national-u_edu_ph/Ee_cinlJaxNFgjat57T880IBBYKZhiU1KkPIQjK1dWjCsw?e=1XJu1B';
+    url= 'https://nationalueduph-my.sharepoint.com/:p:/g/personal/ariasru_students_national-u_edu_ph/EeGwRw9kGYFDnijoUFx8kEoBbrsYAbBVQ30pyOSDZCYPPQ?e=c6YhoS';
     powerpoint(url);
 }
 
 else if(sessionStorage.getItem("ID")==7 && sessionStorage.getItem("lessonID")==3){
-    url= 'https://nationalueduph-my.sharepoint.com/:p:/g/personal/llanetaje_students_national-u_edu_ph/EYTOXJGPrbRIlqD6cByyEYUBgyCU5f_l3-4P5Qz_AMsHhA?e=1bs0Ls';
+    url= 'https://nationalueduph-my.sharepoint.com/:p:/g/personal/ariasru_students_national-u_edu_ph/EaC-clxuQApHqwpjdMcusNYBhE04R7wmvbOEsuwLBCuIoQ?e=UWESVw';
     powerpoint(url);
 }
 
-else if(sessionStorage.getItem("ID")==7 && sessionStorage.getItem("lessonID")==4){
-    url= 'https://nationalueduph-my.sharepoint.com/:p:/g/personal/llanetaje_students_national-u_edu_ph/ESHLU13VJwdMoTv0FkK65lwB_ygdy_bEs53M54QjNtG5Ew?e=yObc00';
-    powerpoint(url);
-}
 
-else if(sessionStorage.getItem("ID")==7 && sessionStorage.getItem("lessonID")==5){
-    url= 'https://nationalueduph-my.sharepoint.com/:p:/g/personal/llanetaje_students_national-u_edu_ph/Eewk_Bl_hghAqLi6kZFgl8QBP84NCKRx5-abtmLiPjtB3g?e=nMNVBJ';
-    powerpoint(url);
-    createAssessmentBtn();
-}
-else if(sessionStorage.getItem("ID")==7 && sessionStorage.getItem("lessonID")==6){
-    url= 'https://nationalueduph-my.sharepoint.com/:p:/g/personal/llanetaje_students_national-u_edu_ph/ESUNNZv3WfdBrShE2J-p0QgB7guJRxRvSBflVbqR3EHAIQ?e=aPEysF';
-    powerpoint(url);
-
-}
-
-
-//8
+//8 Shapes
 else if(sessionStorage.getItem("ID")==8 && sessionStorage.getItem("lessonID")==1){
-    url= 'https://nationalueduph-my.sharepoint.com/:p:/g/personal/llanetaje_students_national-u_edu_ph/EaA8BiU1gY5Em-9k8O9hPmYBddzEklt_ybICdCP1mJOIYg?e=PbxEZS';
+    url= 'https://nationalueduph-my.sharepoint.com/:p:/g/personal/ariasru_students_national-u_edu_ph/EW_W9tkjj69GhRkMfv066lQBkyzdhAcILu6b3-ejBDfZAQ?e=eiIvId';
     powerpoint(url);
 }
 
 else if(sessionStorage.getItem("ID")==8 && sessionStorage.getItem("lessonID")==2){
-    url= 'https://nationalueduph-my.sharepoint.com/:p:/g/personal/llanetaje_students_national-u_edu_ph/EQFcA_4tZJBIi_uBZ-YmKWgBBL8LTkEDuBrrUVQS0gPNww?e=8sd1Fy';
+    url= 'https://nationalueduph-my.sharepoint.com/:p:/g/personal/ariasru_students_national-u_edu_ph/EbBMXp8oOu9Kles1tYGgM50BA98yB2MbuB4vfU5_sSUXDw?e=dkRgKa';
     powerpoint(url);
 }
 
 else if(sessionStorage.getItem("ID")==8 && sessionStorage.getItem("lessonID")==3){
-    url= 'https://nationalueduph-my.sharepoint.com/:p:/g/personal/llanetaje_students_national-u_edu_ph/EWX004kcFrhEu4eNS-oD84sBb35Nq4SRzXxPa4loawvw6w?e=cJEQrW';
+    url= 'https://nationalueduph-my.sharepoint.com/:p:/g/personal/ariasru_students_national-u_edu_ph/EWcYVpVQSVpGhAhWfFjhAQkBu50TDwRkrY9u3FtEq7oEQA?e=hc5Wgo';
     powerpoint(url);
 }
 
 else if(sessionStorage.getItem("ID")==8 && sessionStorage.getItem("lessonID")==4){
-    url= 'https://nationalueduph-my.sharepoint.com/:p:/g/personal/llanetaje_students_national-u_edu_ph/EfVhhmuiFDRCvnRt0W_T6tQBZcrZgeDT6yabP1KXuwb4Mw?e=0vvnU6';
+    url= 'https://nationalueduph-my.sharepoint.com/:p:/g/personal/ariasru_students_national-u_edu_ph/EXNKpx7ktcNLmnWfJTa2bN0BCEeILBbJNPT7Cj07R8213Q?e=j11d0T';
     powerpoint(url);
 }
 else if(sessionStorage.getItem("ID")==8 && sessionStorage.getItem("lessonID")==5){
-    url= 'https://nationalueduph-my.sharepoint.com/:p:/g/personal/llanetaje_students_national-u_edu_ph/EXPQWXeAxdBDk-xuInMABGMBbSyq1NHYrXhGqeAzk0Xo9Q?e=HxUK9L';
+    url= 'https://nationalueduph-my.sharepoint.com/:p:/g/personal/ariasru_students_national-u_edu_ph/ETr2HpBVVsVJgByIJOxatHIBjFg-61R9RUyVw70NeSKXFg?e=geNPwS';
     powerpoint(url);
-}
-else if(sessionStorage.getItem("ID")==8 && sessionStorage.getItem("lessonID")==6){
-    url= 'https://nationalueduph-my.sharepoint.com/:p:/g/personal/llanetaje_students_national-u_edu_ph/Eez4nUc4hldBmfEJF0G64p8B5v_3rSkDPik5-1nkkWCJJA?e=ZmLJ6u';
-    powerpoint(url);
-}
-else if(sessionStorage.getItem("ID")==8 && sessionStorage.getItem("lessonID")==7){
-    url= 'https://nationalueduph-my.sharepoint.com/:p:/g/personal/llanetaje_students_national-u_edu_ph/EV0F_Om9US9HqrS-5-n8WXgBetzMmDwMiLt4ok7aK175yA?e=Ii4OnE';
-    powerpoint(url);
-    createAssessmentBtn();
 }
 
-//9
+
+//9 Time
 else if(sessionStorage.getItem("ID")==9 && sessionStorage.getItem("lessonID")==1){
-    url = 'https://www.youtube.com/embed/8_s1CRs1rJk?controls=0';
-    youtubeVid(url);
+    url= 'https://nationalueduph-my.sharepoint.com/:p:/g/personal/ariasru_students_national-u_edu_ph/ETycYjSemGxBhDsGam7kCYcBZvOGBEVguD4vDkjVhRJRQg?e=j6Satz';
+    powerpoint(url);
+
 }
 
 else if(sessionStorage.getItem("ID")==9 && sessionStorage.getItem("lessonID")==2){
-    url = "https://www.youtube.com/embed/FomVrsf-PJ0?controls=0";
-    youtubeVid(url);
+    url= 'https://nationalueduph-my.sharepoint.com/:p:/g/personal/ariasru_students_national-u_edu_ph/Eb3AlTuAzIVPi0-k02INDPIBCwCz-B0hWXYiY4PyDv3Kow?e=Y49RHy';
+    powerpoint(url);
 }
 
 else if(sessionStorage.getItem("ID")==9 && sessionStorage.getItem("lessonID")==3){
-    url = "https://www.youtube.com/embed/0Wrv_ZviMEc?controls=0";
-    youtubeVid(url);
+    url= 'https://nationalueduph-my.sharepoint.com/:p:/g/personal/ariasru_students_national-u_edu_ph/ETqFrKpxBJtEm9QrT_2dB7EBpFm4yHe2MxzwpgfxJ-wLew?e=qp8qt1';
+    powerpoint(url);
 }
 
-else if(sessionStorage.getItem("ID")==9 && sessionStorage.getItem("lessonID")==4){
-    url = "https://www.youtube.com/embed/cu8j7YnunzQ?controls=0";
-    youtubeVid(url);
-}
-
-else if(sessionStorage.getItem("ID")==9 && sessionStorage.getItem("lessonID")==5){
-    url = "https://www.youtube.com/embed/oes1PE58WQE?controls=0";
-    youtubeVid(url);
-    createAssessmentBtn();
-}
 
 else{
 
 }
+
+//reference for videos
+// url = "https://www.youtube.com/embed/Vk-pFf9V5rw?controls=0";
+// youtubeVid(url);
 
 function youtubeVid(url){
     let container = document.createElement('div');
@@ -287,26 +240,13 @@ function youtubeVid(url){
 
 function powerpoint(url){
     var el = document.getElementById('container');
-    el.innerHTML = '<iframe src="'+url+'/_layouts/15/Doc.aspx?sourcedoc={25063ca0-8135-448e-9bef-64f0ef613e66}&amp;action=embedview&amp;wdAr=1.4148802017654476" width="100%" height="100%" frameborder="0">This is an embedded <a target="_blank" href="https://office.com">Microsoft Office</a> presentation, powered by <a target="_blank" href="https://office.com/webapps">Office</a>.</iframe>';
+    // el.setAttribute("style","width:100%;height:100%");
+    el.innerHTML = '<iframe src="'+url+'/_layouts/15/Doc.aspx?sourcedoc={19e7812a-571a-4c12-b7bb-f95a8afd1582}&amp;action=embedview&amp;wdAr=1.7777777777777777" width="1186px" height="691px" frameborder="0">This is an embedded <a target="_blank" href="https://office.com">Microsoft Office</a> presentation, powered by <a target="_blank" href="https://office.com/webapps">Office</a>.</iframe>';
+    // el.innerHTML = url;
 }
 
-function hi(){
-    window.location.href = "/English Page/assessment_english.html";
-}
 
-function createAssessmentBtn(){
-    var myDiv = document.getElementById("marker");          
-    // creating button element  
-    var button = document.createElement('BUTTON');  
-    // creating text to be 
-    //displayed on button 
-    var text = document.createTextNode("Assessment"); 
-    // appending text to button 
-    button.appendChild(text); 
-    button.onclick = hi;
-    // appending button to div 
-    myDiv.appendChild(button); ;  
-}
+
 
 
 

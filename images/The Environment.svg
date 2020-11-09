@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="755.407" height="162.389" viewBox="0 0 755.407 162.389">
+  <defs>
+    <filter id="The_Environment_" x="213.407" y="36.389" width="336" height="126" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.502"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="The_Environment" data-name="The Environment" transform="translate(-10.289 -6.27)">
+    <rect id="Rectangle_384" data-name="Rectangle 384" width="741" height="88" rx="44" transform="translate(24.696 34.658)" fill="#d8d7d7"/>
+    <path id="Path_763" data-name="Path 763" d="M33.129,0H685.991a33.129,33.129,0,0,1,0,66.258H33.129A33.129,33.129,0,0,1,33.129,0Z" transform="translate(35.717 45.405)" fill="#746d6d"/>
+    <g id="Spaceship" transform="matrix(-0.914, 0.407, -0.407, -0.914, 110.121, 66.068)">
+      <path id="Path_636" data-name="Path 636" d="M0,18.061H81.943S62.481,0,42.7,0,0,18.061,0,18.061Z" transform="translate(3.434 12.14)" fill="#474747"/>
+      <path id="Path_634" data-name="Path 634" d="M11.923,17.817c4.653,2.394,14.574,5.56,30.862,5.56s31.939-3.893,34.291-5.56S88.344,5.807,88.344,5.807A165.206,165.206,0,0,0,46.651,0C24.565,0,0,5.807,0,5.807S7.27,15.422,11.923,17.817Z" transform="translate(0 23.648)" fill="#747172"/>
+      <path id="Path_635" data-name="Path 635" d="M29.159,35.422c14.5,0,28.876-11.754,28.876-31.515A126.15,126.15,0,0,0,29.16,0,129.732,129.732,0,0,0,.032,3.907C-.8,24.8,14.659,35.422,29.159,35.422Z" transform="translate(15.415 36.898)" fill="#fff" opacity="0.59"/>
+      <path id="Path_637" data-name="Path 637" d="M0,18.367a12.837,12.837,0,0,1,2.664-.352,8.929,8.929,0,0,1,2.38.352S5.889,7.484,4.628,2.992,0,.4,0,.4Z" transform="translate(17.671 5.358) rotate(-22)" fill="#b4b4b4"/>
+      <path id="Path_638" data-name="Path 638" d="M0,0A12.836,12.836,0,0,0,2.664.352,8.929,8.929,0,0,0,5.044,0s.846,10.883-.415,15.375S0,17.969,0,17.969Z" transform="translate(65.477 22.388) rotate(-158)" fill="#b4b4b4"/>
+      <path id="Path_639" data-name="Path 639" d="M.744,0A12.836,12.836,0,0,0,3.407.352,8.929,8.929,0,0,0,5.788,0s.846,10.883-.415,15.375S1.6,19.305.447,15.461.744,0,.744,0Z" transform="matrix(-1, 0.017, -0.017, -1, 47.321, 18.544)" fill="#b4b4b4"/>
+      <path id="Path_640" data-name="Path 640" d="M2.571,8.45S21.844,3.122,40.759,3.122s37.72,4.811,37.72,4.811L80.545,5.6S59.673,0,40.759,0,0,5.639,0,5.639s.528.612,1.174,1.312S2.571,8.45,2.571,8.45Z" transform="translate(3.763 28.401)" fill="#9f9f9f"/>
+      <path id="Path_641" data-name="Path 641" d="M.889,29c2.089,0,4.856-6.856,4.856-14.864S2.978,0,.889,0s.16,6.186.16,14.2S-1.2,29,.889,29Z" transform="translate(69.213 42.022) rotate(30)" fill="#fff" opacity="0.33"/>
+      <ellipse id="Ellipse_129" data-name="Ellipse 129" cx="1.734" cy="1.576" rx="1.734" ry="1.576" transform="translate(49.177 66.374)" fill="#fff" opacity="0.31"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 10.29, 6.27)" filter="url(#The_Environment_)">
+      <text id="The_Environment_2" data-name="The Environment
+" transform="translate(381.41 86.39)" fill="#fff" stroke="#fff" stroke-width="2" font-size="39" font-family="SegoeUI-Bold, Segoe UI" font-weight="700"><tspan x="-156.581" y="0">The Environment</tspan><tspan x="0" y="52"></tspan></text>
+    </g>
+  </g>
+</svg>

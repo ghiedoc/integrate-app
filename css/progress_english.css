@@ -76,12 +76,12 @@ body{
     border-radius: 70px;
   }
   .circle2:hover > .hove{
-    width: 150px;
+    width: 200px;
     height: 0 3px;
   }
   div.circle3{
-    left: 80%; 
-    top: 70%; 
+    left: 70%; 
+    top: 60%; 
     position: absolute;
     background: white;
     transform: translate(-40%, -50%);
@@ -90,7 +90,7 @@ body{
     border-radius: 70px;
   }
   .circle3:hover > .hove{
-    width: 130px;
+    width: 200px;
     height: 0 3px;
   }
   div.circle4{
