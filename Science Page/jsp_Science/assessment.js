@@ -174,5 +174,5 @@ function start() {
 }
 
 function goHome() {
-  window.location.href = "/Science Page/topics_science.html";
+  window.location.href = "../Science Page/topics_science.html";
 }

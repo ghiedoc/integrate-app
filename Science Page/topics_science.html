@@ -1,55 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Topics</title>
-    <link rel="stylesheet" href="/css/topics_science.css">
-    <link rel="shortcut icon" href="/images/logo.png" type="image/png">
- 
-</head>
-<body>
-    <div class= "container">
-    <a href="/html/subject_topic.html">
-        <button class= "btn_back">BACK</button>
-    </a>
+    <link rel="stylesheet" href="../css/topics_science.css" />
+    <link rel="shortcut icon" href="/images/logo.png" type="image/png" />
+  </head>
+  <body>
+    <div class="container">
+      <a href="/html/subject_topic.html">
+        <button class="btn_back">BACK</button>
+      </a>
 
-    
-    <div class = "topics">
-        <img src="/images/Science.svg" alt="" class = "lesson">
+      <div class="topics">
+        <img src="../images/Science.svg" alt="" class="lesson" />
 
-        <div id= "pics1" value="1" onclick="showID(1)" >
-            <img src="/images/Human Body Parts.svg" alt="" class = "pics">
+        <div id="pics1" value="1" onclick="showID(1)">
+          <img src="../images/Human Body Parts.svg" alt="" class="pics" />
         </div>
 
-        <div id= "pics1" value="2" onclick="showID(2)" >
-            <img src="/images/Living Things.svg" alt="" class = "pics">
+        <div id="pics1" value="2" onclick="showID(2)">
+          <img src="../images/Living Things.svg" alt="" class="pics" />
         </div>
 
-        <div id= "pics1" value="3" onclick="showID(3)" > 
-            <img src="/images/Plants.svg" alt="" class = "pics">
+        <div id="pics1" value="3" onclick="showID(3)">
+          <img src="../images/Plants.svg" alt="" class="pics" />
         </div>
 
-        <div id= "pics1" value="4" onclick="showID(4)" > 
-            <img src="/images/Animals.svg" alt="" class = "pics">
+        <div id="pics1" value="4" onclick="showID(4)">
+          <img src="../images/Animals.svg" alt="" class="pics" />
         </div>
 
-        <div id= "pics1" value="5" onclick="showID(5)" > 
-            <img src="/images/Non Living.svg" alt="" class = "pics">
+        <div id="pics1" value="5" onclick="showID(5)">
+          <img src="../images/Non Living.svg" alt="" class="pics" />
         </div>
-        <div id= "pics1" value="5" onclick="showID(6)" > 
-            <img src="/images/Matter.svg" alt="" class = "pics">
+        <div id="pics1" value="5" onclick="showID(6)">
+          <img src="../images/Matter.svg" alt="" class="pics" />
         </div>
-        <div id= "pics1" value="5" onclick="showID(7)" > 
-            <img src="/images/Force motion and Energy.svg" alt="" class = "pics">
+        <div id="pics1" value="5" onclick="showID(7)">
+          <img
+            src="../images/Force motion and Energy.svg"
+            alt=""
+            class="pics"
+          />
         </div>
-        <div id= "pics1" value="5" onclick="showID(8)" > 
-            <img src="/images/The Environment.svg" alt="" class = "pics">
+        <div id="pics1" value="5" onclick="showID(8)">
+          <img src="../images/The Environment.svg" alt="" class="pics" />
         </div>
+      </div>
     </div>
-    </div>
-    
-</body>
+  </body>
 
-<script type="text/javascript" src="/Science Page/jsp_Science/topics-science.js"></script>
+  <script>
+    function showID(id) {
+      // alert(id);
+      sessionStorage.setItem("ID", id);
+      window.location.href = "../Science Page/lesson-sci.html";
+    }
+  </script>
 </html>

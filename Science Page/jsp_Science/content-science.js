@@ -190,7 +190,7 @@ function powerpoint(url) {
 }
 
 function hi() {
-  window.location.href = "/Science Page/assessment_sci.html";
+  window.location.href = "../Science Page/assessment_sci.html";
 }
 
 function createAssessmentBtn() {
