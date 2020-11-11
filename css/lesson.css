@@ -116,6 +116,7 @@ a:hover {
     margin: auto;
     top: 150px;
     margin-bottom: 50px;
+    cursor: pointer;
 }
 
 .container-fil {
@@ -143,6 +144,7 @@ a:hover {
     margin: auto;
     top: 150px;
     margin-bottom: 50px;
+    cursor: pointer;
 }
 
 .container-sci {
@@ -156,6 +158,7 @@ a:hover {
     margin: auto;
     top: 150px;
     margin-bottom: 50px;
+    cursor: pointer;
 }
 
 .image {
