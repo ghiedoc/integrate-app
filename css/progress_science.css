@@ -25,7 +25,7 @@ body{
   .container{
     width: 100%;
     height: 2200px;
-    background-image: url("/images/Progress_ScienceBg.svg");
+    background-image: url("../images/Progress_ScienceBg.svg");
     background-color: red;
     background-position: center;
     background-repeat: no-repeat;
@@ -33,33 +33,23 @@ body{
     background-attachment: scroll;
     background-size: cover;
   }
-  .hove{
-    border: none;
-      background: none;
-      outline: none;
-      float: left;
-      padding: 0;
-      color: white;
-      font-size: 16px;
-      transition: 0.7s;
-      line-height: 110px;
-      width: 0px;
-      font-weight: bold;
-  }
+
   
   div.circle1{
     position: absolute;
     left: 50%; 
     top: 31%; 
-    background: #2f3640;
     transform: translate(-40%, -50%);
-    border-radius: 70px;
-    transition: 1s;
   }
-  .circle1:hover > .hove{
-    width: 150px;
-    height: 0 3px;
+  .lock1{
+    position: absolute;
+    left: 50%; 
+    top: 31%; 
+    transform: translate(-40%, -50%);
+    width: 120px;
+    height: 120px;
   }
+
   .circle{
     width: 120px;
     height: 120px;
@@ -68,112 +58,116 @@ body{
     left: 30%; 
     top: 50%; 
     position: absolute;
-    background: white;
     transform: translate(-40%, -50%);
-    transition: 1s;
-    background: #2f3640;
-    border-radius: 70px;
   }
-  .circle2:hover > .hove{
-    width: 150px;
-    height: 0 3px;
+  .lock2{
+    left: 30%; 
+    top: 50%; 
+    position: absolute;
+    transform: translate(-40%, -50%);
+    width: 120px;
+    height: 120px;
   }
+
   div.circle3{
     left: 80%; 
     top: 70%; 
     position: absolute;
-    background: white;
     transform: translate(-40%, -50%);
-    transition: 1s;
-    background: #2f3640;
-    border-radius: 70px;
   }
-  .circle3:hover > .hove{
-    width: 130px;
-    height: 0 3px;
+  .lock3{
+    left: 80%; 
+    top: 70%; 
+    position: absolute;
+    transform: translate(-40%, -50%);
+    width: 120px;
+    height: 120px;
   }
   div.circle4{
     left: 17%; 
     top: 98%; 
     position: absolute;
-    background: white;
     transform: translate(-40%, -50%);
     transition: 1s;
-    background: #2f3640;
-    border-radius: 70px;
   }
-  .circle4:hover > .hove{
-    width: 130px;
-    height: 0 3px;
+  .lock4{
+    left: 17%; 
+    top: 98%; 
+    position: absolute;
+    transform: translate(-40%, -50%);
+    transition: 1s;
+    width: 120px;
+    height: 120px;
   }
   div.circle5{
     left: 45%; 
     top: 140%; 
     position: absolute;
-    background: white;
     transform: translate(-50%, -50%);
-    transition: 1s;
-    background: #2f3640;
-    border-radius: 70px;
   }
-  .circle5:hover > .hove{
-    width: 130px;
-    height: 0 3px;
+  .lock5{
+    left: 45%; 
+    top: 140%; 
+    position: absolute;
+    transform: translate(-50%, -50%);
+    width: 120px;
+    height: 120px;
   }
   div.circle6{
     left: 82%; 
     top: 163%; 
     position: absolute;
-    background: white;
     transform: translate(-50%, -50%);
-    transition: 1s;
-    background: #2f3640;
-    border-radius: 70px;
   }
-  .circle6:hover > .hove{
-    width: 130px;
-    height: 0 3px;
+  .lock6{
+    left: 82%; 
+    top: 163%; 
+    position: absolute;
+    transform: translate(-50%, -50%);
+    width: 120px;
+    height: 120px;
   }
- 
   div.circle8{
     left: 41.5%; 
     top: 240%;
     position: absolute;
-    background: white;
     transform: translate(-50%, -50%);
-    transition: 1s;
-    background: #2f3640;
-    border-radius: 70px;
   }
-  .circle8:hover > .hove{
-    width: 130px;
-    height: 0 3px;
+  .lock7{
+    left: 41.5%; 
+    top: 240%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    width: 120px;
+    height: 120px;
   }
   div.circle9{
     left: 9%; 
     top: 270%; 
     position: absolute;
-    background: white;
     transform: translate(-50%, -50%);
     transition: 1s;
-    background: #2f3640;
-    border-radius: 70px;
   }
-  .circle9:hover > .hove{
-    width: 130px;
-    height: 0 3px;
+  .lock8{
+    left: 9%; 
+    top: 270%; 
+    position: absolute;
+    transform: translate(-50%, -50%);
+    transition: 1s;
+    width: 120px;
+    height: 120px;
   }
   div.circle0{
     left: 80%; 
     top: 300%; 
     position: absolute;
-    background: white;
     transform: translate(-50%, -50%);
-    transition: 1s;
-    background: #2f3640;
-    border-radius: 70px;
   }
-  .circle0:hover > .hove{
-    width: 100px;
-    height: 0 3px;
+  .lock9{
+    left: 80%; 
+    top: 300%; 
+    position: absolute;
+    transform: translate(-50%, -50%);
+    width: 120px;
+    height: 120px;
   }

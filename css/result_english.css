@@ -1,6 +1,6 @@
 body {
     color: #566787;
-    background-image: url("/images/ice.png");
+    background-image: url("../images/ice.png");
     background-size: 100%;
     background-repeat: no-repeat;
     background-position: center;

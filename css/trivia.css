@@ -46,7 +46,7 @@ h1{
     height: 555px;
 }
 .blackboard{
-    background: url(/images/black.PNG);
+    background: url('../images/black.PNG');
     background-size: 680px 555px;
     background-repeat: no-repeat;
 }

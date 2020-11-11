@@ -55,23 +55,28 @@ else if(sessionStorage.getItem("ID")==2 && sessionStorage.getItem("lessonID")==5
 
 //3
 else if(sessionStorage.getItem("ID")==3 && sessionStorage.getItem("lessonID")==1){
-    
+    url= 'https://nationalueduph-my.sharepoint.com/:p:/g/personal/llanetaje_students_national-u_edu_ph/Ea9lyNceUU5DgrvZ9t7wq8QB6vOkveVSwwndt-nGpxqpLQ?e=gblAKX';
+    powerpoint(url);
 }
 
 else if(sessionStorage.getItem("ID")==3 && sessionStorage.getItem("lessonID")==2){
-    
+    url= 'https://nationalueduph-my.sharepoint.com/:p:/g/personal/llanetaje_students_national-u_edu_ph/EahQNyHq3J5Pk_lqLMRkkTwBd9Nfk8ZEKHQcv7ElbQGxSw?e=RH5EVz';
+    powerpoint(url);
 }
 
 else if(sessionStorage.getItem("ID")==3 && sessionStorage.getItem("lessonID")==3){
-    
+    url= 'https://nationalueduph-my.sharepoint.com/:p:/g/personal/llanetaje_students_national-u_edu_ph/Ea-Ah1Pze6xKt3xMxnaw3tABLyMpnhsCFGJMPVHcpkJ41A?e=MgiUUc';
+    powerpoint(url);
 }
 
 else if(sessionStorage.getItem("ID")==3 && sessionStorage.getItem("lessonID")==4){
-    
+    url= 'https://nationalueduph-my.sharepoint.com/:p:/g/personal/llanetaje_students_national-u_edu_ph/ET2Vc0CsaihLv39ygnkcEU0BCHHCKWpcrGXGqZX7GhKXtg?e=60N9p7';
+    powerpoint(url);
 }
 
 else if(sessionStorage.getItem("ID")==3 && sessionStorage.getItem("lessonID")==5){
-    
+    url= 'https://nationalueduph-my.sharepoint.com/:p:/g/personal/llanetaje_students_national-u_edu_ph/Efuc5ZFwkGJCn0yHkMmDCxgB72yJV3AILsXJLtEYBcFiPg?e=cJK9am';
+    powerpoint(url);
 }
 
 
@@ -291,7 +296,7 @@ function powerpoint(url){
 }
 
 function hi(){
-    window.location.href = "/English Page/assessment_english.html";
+    window.location.href = "../English Page/assessment_english.html";
 }
 
 function createAssessmentBtn(){

@@ -3,7 +3,7 @@ body{
     margin-right: 0;
     overflow-x: hidden;
     overflow-y: hidden;
-    background: url(/images/classroom_bg.svg);
+    background: url('../images/classroom_bg.svg');
     background-repeat: no-repeat;
     /* width: 10px; */
     background-size: 100%;

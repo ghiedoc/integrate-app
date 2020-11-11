@@ -8,7 +8,7 @@ html {
 
 /* background image */
 .body-fil {
-    background-image: url("/images/Filipino-BG.svg");
+    background-image: url("../images/Filipino-BG.svg");
     height: 100%;
     background-position: center;
     background-repeat: no-repeat;
@@ -16,7 +16,7 @@ html {
 }
 
 .body-eng {
-    background-image: url("/images/Math-BG.svg");
+    background-image: url("../images/Math-BG.svg");
     height: 100%;
     background-position: center;
     background-repeat: no-repeat;
@@ -24,7 +24,7 @@ html {
 }
 
 .body-math {
-    background-image: url("/images/English-BG.svg");
+    background-image: url("../images/English-BG.svg");
     height: 100%;
     background-position: center;
     background-repeat: no-repeat;
@@ -32,7 +32,7 @@ html {
 }
 
 .body-sci {
-    background-image: url("/images/Science-BG.svg");
+    background-image: url("../images/Science-BG.svg");
     height: 100%;
     background-position: center;
     background-repeat: no-repeat;

@@ -28,7 +28,7 @@ body{
 }
 .container{
     height: 1500px;
-    background-image: url("/images/Science\ Background.svg");
+    background-image: url("../images/Science\ Background.svg");
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: scroll;

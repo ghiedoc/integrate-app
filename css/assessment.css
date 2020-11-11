@@ -14,7 +14,7 @@ body {
 }
 
 .body-eng {
-    background-image: url("/images/English-BG.svg");
+    background-image: url("../images/English-BG.svg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -24,7 +24,7 @@ body {
 }
 
 .body-fil {
-    background-image: url("/images/Filipino-BG.svg");
+    background-image: url("../images/Filipino-BG.svg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -33,7 +33,7 @@ body {
 }
 
 .body-math {
-    background-image: url("/images/Math-BG.svg");
+    background-image: url("../images/Math-BG.svg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -42,7 +42,7 @@ body {
 }
 
 .body-sci {
-    background-image: url("/images/Science/Science-BG.svg");
+    background-image: url("../images/Science-BG.svg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -135,6 +135,7 @@ a:hover {
     margin-bottom: 50px;
 }
 
+
 .container-eng-noquestion {
     position: relative;
     background-color: #72b148;
@@ -162,22 +163,21 @@ a:hover {
     margin-bottom: 5%;
     width: 40%;
     font-weight: bold;
-}
+  }
 
-.btn-eng {
-    background-color: #4CAF50;
-    color: white;
-    padding: 0px 50px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 35px;
-    font-weight: bold;
-    margin: 5px 20px;
-    cursor: pointer;
-    float: right;
-    border-radius: 100px;
-    border-width: 3px;
+  .btn-eng{
+    background-color: #4CAF50;    
+    color: white;    
+    padding: 0px 50px;   
+    text-align: center;    
+    text-decoration: none;   
+    display: inline-block;    
+    font-size: 35px;  
+    font-weight: bold;  
+    margin:5px 20px;    
+    cursor: pointer;        
+    border-radius: 100px;  
+    border-width: 3px;  
     border-style: solid;
 }
 
@@ -233,22 +233,21 @@ a:hover {
     margin-bottom: 5%;
     width: 40%;
     font-weight: bold;
-}
+  }
 
-.btn-fil {
-    background-color: #99815f;
-    color: white;
-    padding: 0px 50px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 35px;
-    font-weight: bold;
-    margin: 5px 20px;
-    cursor: pointer;
-    float: right;
-    border-radius: 100px;
-    border-width: 3px;
+  .btn-fil{
+    background-color:  #99815f;  
+    color: white;    
+    padding: 0px 50px;   
+    text-align: center;    
+    text-decoration: none;   
+    display: inline-block;    
+    font-size: 35px;  
+    font-weight: bold;  
+    margin:5px 20px;    
+    cursor: pointer;    
+    border-radius: 100px;  
+    border-width: 3px;  
     border-style: solid;
 }
 
@@ -304,22 +303,21 @@ a:hover {
     margin-bottom: 5%;
     width: 40%;
     font-weight: bold;
-}
+  }
 
-.btn-sci {
-    background-color: #723b86;
-    color: white;
-    padding: 0px 50px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 35px;
-    font-weight: bold;
-    margin: 5px 20px;
-    cursor: pointer;
-    float: right;
-    border-radius: 100px;
-    border-width: 3px;
+  .btn-sci{
+    background-color: #723b86;    
+    color: white;    
+    padding: 0px 50px;   
+    text-align: center;    
+    text-decoration: none;   
+    display: inline-block;    
+    font-size: 35px;  
+    font-weight: bold;  
+    margin:5px 20px;    
+    cursor: pointer;    
+    border-radius: 100px;  
+    border-width: 3px;  
     border-style: solid;
 }
 
@@ -338,14 +336,14 @@ a:hover {
 
 .container-math-question {
     position: relative;
-    background-color: #3a7f9b;
-    width: 40%;
-    height: 65%;
+    background-color:  #3a7f9b;
+    width: 43%;
+    height: 30%;
     border-radius: 30px;
     margin: auto;
     margin-left: 5%;
-    top: 110px;
-    margin-bottom: 50px;
+    top: 100px;
+    /* margin-bottom: 50px; */
 }
 
 .container-math-noquestion {
@@ -374,37 +372,27 @@ a:hover {
     margin-bottom: 5%;
     width: 40%;
     font-weight: bold;
-}
+  }
 
 
-.btn-math {
-    background-color: #3a7f9b;
-    color: white;
-    padding: 0px 50px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 35px;
-    font-weight: bold;
-    margin: 5px 20px;
-    cursor: pointer;
-    float: right;
-    border-radius: 100px;
-    border-width: 3px;
+  .btn-math{
+    background-color: #3a7f9b;    
+    color: white;    
+    padding: 0px 50px;   
+    text-align: center;    
+    text-decoration: none;   
+    display: inline-block;    
+    font-size: 35px;  
+    font-weight: bold;  
+    margin:5px 20px;    
+    cursor: pointer;      
+    border-radius: 100px;  
+    border-width: 3px;  
     border-style: solid;
 }
 
 
 /*containers*/
-
-
-
-
-
-
-
-
-
 .main-panel {
     margin: auto;
     width: 100%;

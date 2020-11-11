@@ -24,167 +24,178 @@ body{
 
 .container{
   height: 2100px;
-  background-image: url("/images/progress.svg");
+  background-image: url("../images/progress.svg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: 100% 110%;
   background-attachment: scroll;
   background-size: cover;
 }
-.hove{
-  border: none;
-    background: none;
-    outline: none;
-    float: left;
-    padding: 0;
-    color: white;
-    font-size: 16px;
-    transition: 0.7s;
-    line-height: 110px;
-    width: 0px;
-    font-weight: bold;
-}
 
 div.circle1{
   position: absolute;
   left: 50%; 
   top: 28%; 
-  background: #2f3640;
   transform: translate(-40%, -50%);
-  border-radius: 70px;
   transition: 1s;
 }
-.circle1:hover > .hove{
-  width: 200px;
-  height: 0 3px;
+.lock1{
+  position: absolute;
+  left: 50%; 
+  top: 28%; 
+  transform: translate(-40%, -50%);
+  transition: 1s;
+  width: 120px;
+  height: 120px;
 }
 .circle{
   width: 120px;
   height: 120px;
 }
 div.circle2{
-  left: 31%; 
-  top: 50%; 
+  left: 30%; 
+  top: 40%; 
   position: absolute;
-  background: white;
   transform: translate(-40%, -50%);
   transition: 1s;
-  background: #2f3640;
-  border-radius: 70px;
 }
-.circle2:hover > .hove{
-  width: 200px;
-  height: 0 3px;
+.lock2{
+  left: 30%; 
+  top: 40%; 
+  position: absolute;
+  transform: translate(-40%, -50%);
+  transition: 1s;
+  width: 120px;
+  height: 120px;
 }
 div.circle3{
-  left: 73%; 
-  top: 58%; 
+  left: 79%; 
+  top: 70%; 
   position: absolute;
-  background: white;
   transform: translate(-40%, -50%);
   transition: 1s;
-  background: #2f3640;
-  border-radius: 70px;
 }
-.circle3:hover > .hove{
-  width: 200px;
-  height: 0 3px;
+.lock3{
+  left: 79%; 
+  top: 70%; 
+  position: absolute;
+  transform: translate(-40%, -50%);
+  transition: 1s;
+  width: 120px;
+  height: 120px;
 }
+
 div.circle4{
   left: 19%; 
   top: 90%; 
   position: absolute;
-  background: white;
   transform: translate(-40%, -50%);
   transition: 1s;
-  background: #2f3640;
-  border-radius: 70px;
 }
-.circle4:hover > .hove{
-  width: 200px;
-  height: 0 3px;
+.lock4{
+  left: 19%; 
+  top: 90%; 
+  position: absolute;
+  transform: translate(-40%, -50%);
+  transition: 1s;
+  width: 120px;
+  height: 120px;
 }
+
 div.circle5{
   left: 47%; 
   top: 135%; 
   position: absolute;
-  background: white;
   transform: translate(-50%, -50%);
   transition: 1s;
-  background: #2f3640;
-  border-radius: 70px;
 }
-.circle5:hover > .hove{
-  width: 200px;
-  height: 0 3px;
-}
-div.circle6{
-  left: 70%; 
-  top: 168%; 
+.lock5{
+  left: 47%; 
+  top: 135%; 
   position: absolute;
-  background: white;
   transform: translate(-50%, -50%);
   transition: 1s;
-  background: #2f3640;
-  border-radius: 70px;
+  width: 120px;
+  height: 120px;
 }
-.circle6:hover > .hove{
-  width: 200px;
-  height: 0 3px;
+
+div.circle6{
+  left: 82%; 
+  top: 150%; 
+  position: absolute;
+  transform: translate(-50%, -50%);
+  transition: 1s;
+}
+.lock6{
+  left: 82%; 
+  top: 150%; 
+  position: absolute;
+  transform: translate(-50%, -50%);
+  transition: 1s;
+  width: 120px;
+  height: 120px;
 }
 div.circle7{
   left: 30%; 
   top: 173%; 
   position: absolute;
-  background: white;
   transform: translate(-50%, -50%);
   transition: 1s;
-  background: #2f3640;
-  border-radius: 70px;
 }
-.circle7:hover > .hove{
-  width: 200px;
-  height: 0 3px;
+.lock7{
+  left: 30%; 
+  top: 173%; 
+  position: absolute;
+  transform: translate(-50%, -50%);
+  transition: 1s;
+  width: 120px;
+  height: 120px;
 }
 div.circle8{
   left: 42%; 
   top: 225%; 
   position: absolute;
-  background: white;
   transform: translate(-50%, -50%);
   transition: 1s;
-  background: #2f3640;
-  border-radius: 70px;
 }
-.circle8:hover > .hove{
-  width: 200px;
-  height: 0 3px;
+.lock8{
+  left: 42%; 
+  top: 225%; 
+  position: absolute;
+  transform: translate(-50%, -50%);
+  transition: 1s;
+  width: 120px;
+  height: 120px;
 }
 div.circle9{
-  left: 33%; 
-  top: 285%; 
+  left: 10%; 
+  top: 256%; 
   position: absolute;
-  background: white;
   transform: translate(-50%, -50%);
   transition: 1s;
-  background: #2f3640;
-  border-radius: 70px;
 }
-.circle9:hover > .hove{
-  width: 200px;
-  height: 0 3px;
+.lock9{
+  left: 10%; 
+  top: 256%; 
+  position: absolute;
+  transform: translate(-50%, -50%);
+  transition: 1s;
+  width: 120px;
+  height: 120px;
 }
 div.circle0{
-  left: 65%; 
-  top: 285%; 
+  left: 1020px; 
+  top: 1800px; 
   position: absolute;
-  background: white;
   transform: translate(-50%, -50%);
   transition: 1s;
-  background: #2f3640;
-  border-radius: 70px;
 }
-.circle0:hover > .hove{
-  width: 200px;
-  height: 0 3px;
+.lock10{
+  left: 1020px; 
+  top: 1800px; 
+  position: absolute;
+  transform: translate(-50%, -50%);
+  transition: 1s;
+  width: 120px;
+  height: 120px;
 }

@@ -5,76 +5,77 @@
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
     <title>Progress English</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <link rel="stylesheet" href="/css/progress_english.css">
+    <link rel="stylesheet" href="../css/progress_english.css">
 </head>
-<body>
+<body onload="showImage()">
      <div class = "container">
-         <a href="/html/subject_progress.html">
+         <a href="../html/subject_progress.html">
         <button class= "btn_back">BACK</button>
     </a>
-        <div class="circle1">
-        <input name="" class="hove" placeholder="Oral Language" disabled/>
-        <a>
-        <img src="/images/english_circ1.svg" alt="" class="circle">
+        <div class="circle1"  onclick="showID(1)">
+        <img src="../images/english_circ1.svg" alt="" class="circle" id="circle">
+        </div>
+        <img src="../images/english_lock.svg" alt="" class="lock1" id="lock1"">
+        <img src="../images/english_passed.svg" alt="" class="lock1" id="passed1"">
+        <div class="circle2"  onclick="showID(2)">
+            <a>
+            <img src="../images/english_circ2.svg" alt="" class="circle">
         </a>
         </div>
-        <div class="circle2">
-            <input name="" class="hove" placeholder="Phonological Skills" disabled/>
+        <img src="../images/english_lock.svg" alt="" class="lock2">
+        <img src="../images/english_passed.svg" alt="" class="lock2" id="passed2"">
+        <div class="circle3"  onclick="showID(3)">
             <a>
-            <img src="/images/english_circ2.svg" alt="" class="circle">
+            <img src="../images/english_circ3.svg" alt="" class="circle">
         </a>
         </div>
-        <div class="circle3">
-            <input name="" class="hove" placeholder="Phonics And Word Recognition" disabled/>
+        <img src="../images/english_lock.svg" alt="" class="lock3">
+        <img src="../images/english_passed.svg" alt="" class="lock3" id="passed3"">
+        <div class="circle4"  onclick="showID(4)">
             <a>
-            <img src="/images/english_circ3.svg" alt="" class="circle">
-        </a>
-        </div>
-        <div class="circle4">
-            <input name="" class="hove" placeholder="Grammar" disabled/>
-            <a>
-            <img src="/images/english_circ4.svg" alt="" class="circle">
+            <img src="../images/english_circ4.svg" alt="" class="circle">
             </a>
         </div>
-        <div class="circle5">
-            <input name="" class="hove" placeholder="Vocabulary and Concept" disabled/>
+        <img src="../images/english_lock.svg" alt="" class="lock4">
+        <img src="../images/english_passed.svg" alt="" class="lock4" id="passed4"">
+        <div class="circle5"  onclick="showID(5)">
             <a>
-            <img src="/images/english_circ5.svg" alt="" class="circle">
+            <img src="../images/english_circ5.svg" alt="" class="circle">
             </a>
         </div>
-        <div class="circle6">
-            <input name="" class="hove" placeholder="Listening Comprehension" disabled/>
+        <img src="../images/english_lock.svg" alt="" class="lock5">
+        <img src="../images/english_passed.svg" alt="" class="lock5" id="passed5"">
+        <div class="circle6"  onclick="showID(6)">
             <a>
-            <img src="/images/english_circ6.svg" alt="" class="circle">
+            <img src="../images/english_circ6.svg" alt="" class="circle">
             </a>
         </div>
-        <div class="circle7">
-            <input name="" class="hove" placeholder="Reading Comprehension" disabled/>
+        <img src="../images/english_lock.svg" alt="" class="lock6">
+        <img src="../images/english_passed.svg" alt="" class="lock6" id="passed6"">
+        <div class="circle7"  onclick="showID(7)">
             <a>
-            <img src="/images/english_circ7.svg" alt="" class="circle">
+            <img src="../images/english_circ7.svg" alt="" class="circle">
             </a>
         </div>
-        <div class="circle8">
-            <input name="" class="hove" placeholder="Language and Literature" disabled/>
+        <img src="../images/english_lock.svg" alt="" class="lock7">
+        <img src="../images/english_passed.svg" alt="" class="lock7" id="passed7"">
+        <div class="circle8"  onclick="showID(8)">
             <a>
-            <img src="/images/english_circ8.svg" alt="" class="circle">
+            <img src="../images/english_circ8.svg" alt="" class="circle">
             </a>
         </div>
-        <div class="circle9">
-            <input name="" class="hove" placeholder="Book and Print Knowledge" disabled/>
+        <img src="../images/english_lock.svg" alt="" class="lock8">
+        <img src="../images/english_passed.svg" alt="" class="lock8" id="passed8"">
+        <div class="circle9"  onclick="showID(9)">
             <a>
-            <img src="/images/english_circ9.svg" alt="" class="circle">
+            <img src="../images/english_circ9.svg" alt="" class="circle">
             </a>
         </div>
-        <div class="circle0">
-            <input name="" class="hove" placeholder="HOVER ME" disabled/>
-            <a>
-            <img src="/images/english_circ9.svg" alt="" class="circle">
-            </a>
-        </div>
+        <img src="../images/english_lock.svg" alt="" class="lock9">
+        <img src="../images/english_passed.svg" alt="" class="lock9" id="passed9"">
     </div>
-    
 
     
 </body>
+<script type="text/javascript" src="../jsp_English/progress.js"></script>
 </html>

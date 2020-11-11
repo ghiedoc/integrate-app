@@ -1,27 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Assessment Mathematics</title>
-    <link rel="shortcut icon" href="/images/logo.png" type="image/png" />
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assessment English</title>
+    <link rel="shortcut icon" href="../images/logo.png" type="image/png">
 
-    <link
-      rel="stylesheet"
-      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
-    />
-    <link rel="stylesheet" href="/css/assessment.css" />
-    <link rel="stylesheet" href="/css/hover.css" />
-    <link href="/css/hover.css" rel="stylesheet" media="all" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
-    />
-    <link rel="stylesheet" href="/css/asses_hover.css" />
-    <link rel="stylesheet" href="/css/asses_middlestyle.css" />
-    <link rel="stylesheet" href="/English Page/css/assessment_quiz.css" />
-  </head>
-  <body onload="start()" class="body-math">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/assessment.css">
+    <link rel="stylesheet" href="../css/hover.css">
+    <link href="../css/hover.css" rel="stylesheet" media="all">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="stylesheet" href="../css/asses_hover.css">
+    <link rel="stylesheet" href="../css/asses_middlestyle.css">
+</head>
+<body onload="start()" class="body-math">
     <nav class="navbar-math fixed-top">
       <a class="navbar-brand" href="#" style="text-align: center">Assessment</a>
       <div class="right">
@@ -30,10 +24,17 @@
     </nav>
 
     <div class="main-panel">
-      <div class="container-math" style="float: left">
-        <div class="row">
-          <div class="column-desc">
-            <h1>Instruction</h1>
+    
+        <div class="container-math" style="float: left;">
+            <div class="row">
+                
+                <div class="column-desc">
+                   
+                        <h1>Instruction</h1>
+                    
+                    
+                    <h3>Answer all the questions correctly. Passing score is half of the total question.</h3>
+                    <br>
 
             <h3>
               Answer all the questions correctly. Passing score is 5 out 10
@@ -51,54 +52,52 @@
             <h3>Happy Learning !</h3>
           </div>
         </div>
-      </div>
-
-      <div class="container-math-question" style="float: left">
-        <div class="row">
-          <div class="quiz-box custom-box">
-            <div class="question-number" id="question-num"></div>
-            <div class="question-text"></div>
-            <div class="option-container"></div>
-            <div class="next-question-button">
-              <button type="button" class="btn" onclick="next()">Next</button>
-            </div>
-            <div class="answers-indicator"></div>
-          </div>
-          <div class="result-box custom-box hide">
-            <h1>Quiz Result</h1>
-            <table>
-              <tr>
-                <td>Total Question</td>
-                <td><span class="total-question"></span></td>
-              </tr>
-              <tr>
-                <td>Attempt</td>
-                <td><span class="attempt"></span></td>
-              </tr>
-              <tr>
-                <td>Correct</td>
-                <td><span class="total-correct" name="tcorrect"></span></td>
-              </tr>
-              <tr>
-                <td>Wrong</td>
-                <td><span class="total-wrong"></span></td>
-              </tr>
-              <tr>
-                <td>Percentage</td>
-                <td><span class="percentage"></span></td>
-              </tr>
-              <tr>
-                <td>Total Score</td>
-                <td><span class="total-score"></span></td>
-                <input type="text" name="scoreToDB" id="scoreToDB" />
-              </tr>
-            </table>
-            <button type="button" class="btn" name="again">Try Again</button>
-            <button type="button" class="btn" onclick="goHome()">
-              Go To Home
-            </button>
-          </div>
-          <!-- <h1>&nbspWhat is Grammar ? </h1>
+    
+        <div class="container-math-question" style="float: left;">
+            <div class="row">
+                <div class="quiz-box custom-box">
+                    <div class="question-number" id="question-num"></div>
+                    <div class="question-text"></div>
+                    <div class="option-container"></div>
+                    <div class="next-question-button">
+                        <button type="button" class="btn" onclick="next()">Next</button>
+                    </div>
+                    <div class="answers-indicator">
+                    </div>
+                </div>
+                <div class="result-box custom-box hide">
+                    <h1>Quiz Result</h1>
+                    <table>
+                        <tr>
+                            <td>Total Question</td>
+                            <td><span class="total-question"></span></td>
+                        </tr>
+                        <tr>
+                            <td>Attempt</td>
+                            <td><span class="attempt"></span></td>
+                        </tr>
+                        <tr>
+                            <td>Correct</td>
+                            <td><span class="total-correct" name="tcorrect"></span></td>
+                        </tr>
+                        <tr>
+                            <td>Wrong</td>
+                            <td><span class="total-wrong"></span></td>
+                        </tr>
+                        <tr>
+                            <td>Percentage</td>
+                            <td><span class="percentage"></span></td>
+                        </tr>
+                        <tr>
+                            <td>Total Score</td>
+                            <td><span class="total-score"></span></td>
+                            <input type="text" name="scoreToDB" id="scoreToDB">
+                        </tr>
+                    </table>
+                    <button type="button" class="btn" name="again" >Try Again</button>
+                    <button type="button" class="btn" onclick="goHome()">Go To Home</button>
+                </div>
+                    <!-- <h1>&nbspWhat is Grammar ? </h1>
                     <hr>
                     <div class="box-answer">
                         hello
@@ -113,17 +112,12 @@
                         <button class="button-math" style="float: left;">Next</button>
                     </a>
                     </div> -->
-        </div>
-      </div>
+                  </div>
     </div>
 
-    <script
-      type="text/javascript"
-      src="/jsp_English/assesfunctions.js"
-    ></script>
-    <script
-      type="text/javascript"
-      src="/jsp_English/assesquestions.js"
-    ></script>
-  </body>
+    <script type="text/javascript" src="../jsp_English/assesfunctions.js"></script>
+    <script type="text/javascript" src="../jsp_English/assesquestions.js"></script>
+</body>
+<script src="../jsp_English/progress.js"></script>
+
 </html>
