@@ -173,8 +173,9 @@ function youtubeVid(url) {
   // framePane.setAttribute("allow","picture-in-picture");
   // framePane.setAttribute("allowfullscreen");
 
+  //video frame edit here
   var el = document.getElementById("marker");
-  el.setAttribute("style", "width:100%;height:100%");
+  el.setAttribute("style", "width:60%;height:100%;margin:auto;");
   container.appendChild(framePane);
 
   el.appendChild(container);
